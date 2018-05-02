@@ -1,0 +1,23 @@
+#mBox {
+	margin-top: 10%;
+	max-width: 50%;
+	margin-left: 25%;
+	margin-right: auto;
+}
+
+
+#mainTitle {
+	text-align: center;
+}
+
+#quoteInsert {
+	text-align: center;
+}
+
+#sourceQuote {
+	text-align: right;
+}
+
+#quoteBtn {
+	position: right;
+}
