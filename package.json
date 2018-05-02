@@ -1,0 +1,28 @@
+{
+  "name": "random_quote_machine",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Intermediate frontend project.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyVY/Random_Quote_Machine.git"
+  },
+  "author": "Aleksey Vasiliev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseyVY/Random_Quote_Machine/issues"
+  },
+  "homepage": "https://github.com/AlekseyVY/Random_Quote_Machine#readme",
+  "devDependencies": {
+    "light-server": "^2.5.0",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1"
+  }
+}
