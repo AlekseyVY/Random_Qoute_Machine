@@ -31,6 +31,6 @@ $(document).ready(function(){
  $('#twitter-share-button').click(function() {
       var tweetQuote = $(".display-4").text();
       if (tweetQuote != '') {
-        window.open('https://twitter.com/intent/tweet?text="' + tweetQuote + '"', '_blank');
+        window.open('https://twitter.com/intent/tweet?text="' + tweetQuote + '"');
       };
     });
