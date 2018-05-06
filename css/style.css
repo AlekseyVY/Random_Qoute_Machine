@@ -1,3 +1,7 @@
+#body {
+	background-color: black;
+}
+
 #mBox {
 	margin-top: 10%;
 	max-width: 50%;
@@ -21,3 +25,4 @@
 #quoteBtn {
 	position: right;
 }
+

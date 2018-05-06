@@ -20,9 +20,17 @@ function getRandomInt(max) {
 /*inserts random quote in html*/
 $(document).ready(function(){
     $("#quoteBtn").click(function(){
-    	let randomQuote = randomQuoteArr[getRandomInt(randomQuoteArr.length)];
-		let randomQA = randomQuote.split("#");
-        $("#quoteInsert").text(randomQA[0]);
+    	var randomQuote = randomQuoteArr[getRandomInt(randomQuoteArr.length)];
+		var randomQA = randomQuote.split("#");
+        $("#mainTitle").text(randomQA[0]);
         $("#sourceQuote").text(randomQA[1]);
+        return randomQA;
     });
 });
+
+ $('.twitter-share-button').click(function() {
+      var tweetQuote = $(".display-4").text();
+      if (tweetQuote != '') {
+        window.open('https://twitter.com/intent/tweet?text="' + tweetQuote + '"', '_blank');
+      };
+    });
